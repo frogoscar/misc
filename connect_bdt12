@@ -1,0 +1,3 @@
+#! /bin/sh
+
+ssh -XY bdt12@bdt12

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=minicom-ttyUSBdebug1
+Comment=Lance le minicom sur ttyUSB1 pour debug de butterfly
+Icon=utilities-terminal
+Exec=/home/enmingx/minicom_USBdebug1
+Terminal=true

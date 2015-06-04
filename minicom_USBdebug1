@@ -1,0 +1,9 @@
+#! /bin/sh
+
+MYDATE=$(date '+%d-%m-%Y %X')
+STR_BEFORE="\n\n********************************\nNew cap at "
+STR_AFTER="\n********************************\n\n"
+MYDATESTR=$STR_BEFORE$MYDATE$STR_AFTER
+echo -e $MYDATESTR >>/home/enmingx/minicom/minicom_USBdebug1.cap
+
+minicom -b 38400 -D /dev/ttyUSBdebug1 -o -w -8 --color=off --capturefile=/home/enmingx/minicom/minicom_USBdebug1.cap

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=xeon
+Comment=Connect to xeon.kuantic.com
+Icon=utilities-terminal
+Exec=/home/enmingx/connect_xeon
+Terminal=true

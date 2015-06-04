@@ -1,0 +1,23 @@
+ssh enmingx@xeon.kuantic.com
+
+
+/home/patrice/plastik/trunk/server/rel/kserver-1.45.0/log
+
+
+Erlang kserver management on Xeon:
+
+Start=
+./rel/kserver-1.45.0/bin/kserver start
+
+Stop=
+./rel/kserver-1.45.0/bin/kserver stop
+
+If the server has failed but the process is still alive, you have to kill the unix processes.
+
+Config=
+./rel/kserver-1.45.0/bin/kserver remote_console
+==> Shell
+==> in the Shell
+loadtest:init().
+loadtest:create_devices(0,2000).
+==> 2 Ctrl+C to leave the Shell 

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=bdt12
+Comment=Connect to BDT12
+Icon=utilities-terminal
+Exec=/home/enmingx/connect_bdt12
+Terminal=true
